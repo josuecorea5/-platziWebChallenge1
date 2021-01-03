@@ -1,0 +1,44 @@
+body {
+  background-image: url('../images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 1440px;
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-section {
+  width:55%;
+  margin: 0;
+}
+.main-section img{
+  width: 100%;
+}
+.main-section__info {
+  text-align: left;
+  margin-top: 70px;
+  width: 30%;
+}
+
+.main-section__info h2 {
+  font-size: 4.0rem;
+}
+.button-register {
+  text-align: left;
+}
+.button-register button {
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+footer {
+  position: relative;
+}
+  
